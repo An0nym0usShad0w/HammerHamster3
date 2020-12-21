@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     var currentScore=0;
     var canPlay=true;
-    var timeToPlay=60;
+    var timeToPlay=61;
 
     var ouchAudio = document.getElementById("hitAudio"); 
     var popOutAudio=document.getElementById('popOut');
