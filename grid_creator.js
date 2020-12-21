@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             canPlay=false
             showEndGameScreen()
             score.innerText="."
-        }, timeToPlay*1000);
+        }, 60*1000);
     }
 
     PlayGame();
